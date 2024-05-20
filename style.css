@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    /* color: #555; */
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(43, 9, 9);
+    padding: 3.2rem;
+    border-bottom: 2px solid rgb(248, 82, 5);
+}
+.right-nav {
+    font-size: 3.2rem;
+    color: #fff;
+}
+.right-nav span {
+    color: darkred;
+}
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 2.4rem;
+    gap: 2.4rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-mobile-nav {
+    border: none;
+    background: none;
+
+    cursor: pointer;
+    display: none;
+}
+.icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    /* color: #fff; */
+}
+.icon-mobile-nav[name="close-outline"] {
+    display: none;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: darkred;
+}
+.hero-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/hero2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: brightness(50%);
+}
+.hero-text {
+    text-align: center;
+    font-size: 3.2rem;
+    color: #fff;
+    /* font-family: "Rubik", sans-serif; */
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 24rem;
+    line-height: 1.2rem;
+}
+.hero-p {
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 1.6rem;
+}
+.hero-p2 {
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 1.6rem;
+}
+.btn-nav {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    /* padding-top:  1.6rem; */
+    margin-left: 50%;
+    margin-top: 2.4rem;
+    background-color: rgb(245, 12, 12);
+    border-radius: 18px;
+    padding: 1.2rem 1.6rem;
+    border: none;
+}
+.btn-nav-link {
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.report-text {
+    font-size: 3.2rem;
+    text-align: center;
+    padding-top: 2.4rem;
+    color: rgb(148, 71, 15);
+    font-family: "Times New Roman", Times, serif;
+}
+table {
+    width: 800px;
+    border-collapse: collapse;
+    border: 1px solid rgb(163, 158, 158);
+    border-top: none;
+}
+.main-table {
+    display: flex;
+    justify-content: center;
+    padding: 2.4rem 4.8rem;
+}
+td,
+th {
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 1.6rem 2.4rem;
+    border-bottom: 1px solid rgb(197, 193, 193);
+}
+thead th {
+    background-color: rgb(245, 241, 241);
+}
+.ratio {
+    color: rgb(170, 12, 12);
+}
+.heros {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1.6rem 4.8rem;
+    gap: 1.6rem;
+}
+.hero-1 {
+    border-radius: 11px;
+    /* overflow: hidden; */
+    transition: all 0.4s;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+.hero-1:hover {
+    transform: translateY(-1.2rem);
+}
+.hero-name {
+    font-size: 1.6rem;
+    font-weight: 900;
+    padding: 1.6rem 1.6rem;
+}
+.hero-des {
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 1.6rem 1.6rem;
+    line-height: 2.4rem;
+}
+.hero-img {
+    width: 100%;
+    height: 30vh;
+}
+.starvation {
+    padding: 1.6rem 2.4rem;
+    width: 100%;
+    height: 50vh;
+}
+.footer {
+    padding: 3.2rem 4.8rem;
+    box-shadow: 4.8rem rgba(0, 0, 0, 0.075);
+    height: 10vh;
+}
+.foo-text {
+    text-align: end;
+    font-size: 2.4rem;
+    padding-right: 9.6rem;
+}
+.footer-text {
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 700;
+    color: rgb(240, 237, 237);
+}
+.desHomes {
+    background-image: url(./images/desHome.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: brightness(60%);
+    height: 80vh;
+    padding: 4.8rem 3.2rem;
+    margin: 3.2rem 4.8rem;
+}
+.desHomes-text {
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+    padding-left: 4.8rem;
+    padding-top: 9.6rem;
+}
+.desHomes-text2 {
+    color: #fff;
+    font-size: 1.6rem;
+    padding-left: 4.8rem;
+    width: 50%;
+    padding-top: 2.4rem;
+}
+.forGaza {
+    padding: 1.6rem 4.8rem;
+}
+.forGaza-2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.forGaza-3 {
+    font-size: 1.6rem;
+    padding-top: 1.6rem;
+}
